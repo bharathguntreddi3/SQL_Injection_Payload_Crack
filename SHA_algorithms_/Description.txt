@@ -1,0 +1,16 @@
+hashlib - The hashlib module defines an API for accessing different cryptographic hashing algorithms.
+
+HASH Algorithms:
+    1.md5
+    2.sha1
+    3.sha224
+    4.sha256
+    5.sha384
+    6.sha512
+
+MD5 Algorithm : md5 algorithm is the old algorithm for password cracking using their hashes and a hash generator
+
+SHA Algorithm : SHA algorithm is the latest and most powerfull and secure algorithm for password cracking using thier hashes and generating hashes
+
+import hashlib   # for accessing the functionalities of the hashlib library to crack passwords using thier hashes
+

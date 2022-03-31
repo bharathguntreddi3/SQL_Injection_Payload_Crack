@@ -1,0 +1,38 @@
+SQL INJECTION:  
+    SQL injection is a technique used to exploit user data through web page inputs by injecting SQL commands as statements. 
+Basically, these statements can be used to manipulate the application’s web server by malicious users.
+
+Simply , An SQL injection is when criminal hackers enter malicious commands into web forms, like the search field, login field, or URL, of an unsecure website to gain unauthorized access to sensitive and valuable data.
+
+1.SQL injection is a code injection technique that might destroy your database.
+2.SQL injection is one of the most common web hacking techniques.
+3.SQL injection is the placement of malicious code in SQL statements, via web page input.
+
+        Web servers communicate with database servers anytime they need to retrieve or store user data.
+SQL statements by the attacker are designed so that they can be executed while the web-server is fetching content from the application server.It compromises the security of a web application.
+
+The Basic input for sql injection is 
+    ABC OR 1=1 is always True
+        This basically converted to SELECT * FROM table_name WHERE id = "ABC" OR 1=1
+
+Since, 1=1 is true for all it will return all records for which this holds true.
+        
+
+ABC can be anything
+
+
+PREVENTION :
+
+1.Update your database management software :
+    You can protect yourself by just patching and updating your database management software.
+
+2.Enforce the principle of least privilege (PoLP) :
+    PoLP means each account only has enough access to do its job and nothing more. 
+A web account that only needs read access to a given database shouldn't have the ability to write, edit or change data in any way.
+
+3.Use prepared statements or stored procedures :
+     As opposed to dynamic SQL, prepared statements limit variables on incoming SQL commands.
+
+4.OWASP : The Open Web Application Security Project, OWASP for short, is the leading authority on web applications and they have lots of additional reading on how to prevent SQL injections.
+
+
